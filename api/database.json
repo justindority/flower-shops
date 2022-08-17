@@ -1,0 +1,214 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "name": "Days E",
+            "colorId": 2
+        },
+        {
+            "id": 2,
+            "name": "Two Lip",
+            "colorId": 3
+        },
+        {
+            "id": 3,
+            "name": "Rows",
+            "colorId": 1
+        },
+        {
+            "id": 4,
+            "name": "Lil' E",
+            "colorId": 3
+        },
+        {
+            "id": 5,
+            "name": "Ore Kid",
+            "colorId": 1
+        }
+    ],
+    "flowerColors": [
+        {
+            "id": 1,
+            "color": "Red"
+        },
+        {
+            "id": 2,
+            "color": "Yellow"
+        },
+        {
+            "id": 3,
+            "color": "Purple"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Shop - Flowers Inside",
+            "city": "NYC",
+            "state": "NY",
+            "address": "1 12th 16th Street 14th",
+            "distributorId": 2
+        },
+        {
+            "id": 2,
+            "name": "Shop for Flowers",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "12 Broadway",
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "name": "Flowers Shop",
+            "city": "Flowers City",
+            "state": "Flowers State",
+            "address": "ADdress for flowers",
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Shop with Flowers for Sale",
+            "city": "Poplar Bluff",
+            "state": "MO",
+            "address": "12 Oak Grove Rd",
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "name": "Flowers are for Sale in the Shop",
+            "city": "12th Circle",
+            "state": "Hell",
+            "address": "666 State Highway 3",
+            "distributorId": 3
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Distributor of Flowers",
+            "city": "Arkansas",
+            "state": "State City",
+            "address": "Pork's Street"
+        },
+        {
+            "id": 2,
+            "name": "Flower Distributor",
+            "city": "Stockholm",
+            "state": "Georgia",
+            "address": "16 Moonshine Dr"
+        },
+        {
+            "id": 3,
+            "name": "Flower Distribution Doers",
+            "city": "Nashville",
+            "state": "Finland",
+            "address": "Suometsäntie 60"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Flower School"
+        },
+        {
+            "id": 2,
+            "name": "Nurse Flower"
+        },
+        {
+            "id": 3,
+            "name": "Another Flower"
+        },
+        {
+            "id": 4,
+            "name": "Simply a Flower Nursery"
+        },
+        {
+            "id": 5,
+            "name": "Raising Flowers"
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "flowerId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "flowerId": 2,
+            "nurseryId": 1
+        },
+        {
+            "id": 3,
+            "flowerId": 3,
+            "nurseryId": 2
+        },
+        {
+            "id": 4,
+            "flowerId": 4,
+            "nurseryId": 2
+        },
+        {
+            "id": 5,
+            "flowerId": 1,
+            "nurseryId": 3
+        },
+        {
+            "id": 6,
+            "flowerId": 5,
+            "nurseryId": 3
+        },
+        {
+            "id": 7,
+            "flowerId": 4,
+            "nurseryId": 4
+        },
+        {
+            "id": 8,
+            "flowerId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 9,
+            "flowerId": 3,
+            "nurseryId": 5
+        },
+        {
+            "id": 10,
+            "flowerId": 5,
+            "nurseryId": 5
+        }
+    ],
+    "distributorNurseries": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 4,
+            "distributorId": 2,
+            "nurseryId": 1
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 2
+        },
+        {
+            "id": 6,
+            "distributorId": 3,
+            "nurseryId": 3
+        }
+    ]
+}
